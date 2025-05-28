@@ -31,12 +31,12 @@ pip install -r requirements.txt
 2. Edit the dataset path in `script/llava/captioning_iiw400.sh`.
 3. Run caption generation:
    ```bash
-   bash script/llava/captioning_iiw400.sh
+   bash scripts/llava/captioning_iiw400.sh
    ```
 4. Update the dataset path in `script/clair_iiw_eval.sh`.
 5. Run CLAIR evaluation:
    ```bash
-   bash script/clair_iiw_eval.sh
+   bash scripts/clair_iiw_eval.sh
    ```
 
 ---
@@ -46,12 +46,12 @@ pip install -r requirements.txt
 2. Edit the dataset path in `script/llava/captioning_docci.sh`.
 3. Run caption generation:
    ```bash
-   bash script/llava/captioning_docci.sh
+   bash scripts/llava/captioning_docci.sh
    ```
 4. Update the dataset path in `script/clair_docci_eval.sh`.
 5. Run CLAIR evaluation:
    ```bash
-   bash script/clair_docci_eval.sh
+   bash scripts/clair_docci_eval.sh
    ```
 
 ---
@@ -61,12 +61,12 @@ pip install -r requirements.txt
 2. Edit the dataset path in `script/llava/captioning_coco.sh`.
 3. Run caption generation:
    ```bash
-   bash script/llava/captioning_coco.sh
+   bash scripts/llava/captioning_coco.sh
    ```
 4. Update the dataset path in `script/chair_eval.sh`.
 5. Run CHAIR evaluation:
    ```bash
-   bash script/chair_eval.sh
+   bash scripts/chair_eval.sh
     ```
 
 
